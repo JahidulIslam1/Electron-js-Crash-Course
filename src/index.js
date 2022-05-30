@@ -3,7 +3,7 @@ const isDev = require('electron-is-dev');
 const windowStateKeeper = require('electron-window-state');
 const path = require('path');
 
-// Handle creating/removing shortcuts on Windows when installing/uninstalling.
+// Handle creating / removing shortcuts on Windows when installing / uninstalling.
 if (require('electron-squirrel-startup')) {
   // eslint-disable-line global-require
   app.quit();
